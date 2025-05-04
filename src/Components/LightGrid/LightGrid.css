@@ -1,0 +1,26 @@
+.box_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3x3 grid */
+  gap: 10px;
+  width: 200px;
+  margin: 50px auto;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #ddd;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box.active {
+  background-color: #4caf50;
+  border-color: #388e3c;
+}

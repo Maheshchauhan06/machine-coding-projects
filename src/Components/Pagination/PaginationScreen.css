@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.App > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.App > div > div {
+  background-color: #f7f7f7;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  min-width: 120px;
+  text-align: center;
+}

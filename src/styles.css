@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #e5d5e3;
+}

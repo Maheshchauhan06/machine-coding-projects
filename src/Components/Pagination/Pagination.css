@@ -1,0 +1,36 @@
+.Pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-container span {
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-container span:hover {
+  background-color: #333;
+  color: white;
+}
+
+.actions {
+  font-weight: bold;
+  cursor: pointer;
+  color: #0077ff;
+  transition: all 0.3s ease;
+}
+
+.actions:hover {
+  color: #0044aa;
+}
