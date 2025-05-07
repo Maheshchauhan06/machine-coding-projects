@@ -1,0 +1,9 @@
+.infinite-scroll-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 10rem;
+  gap: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  border: 0.02rem solid gray;
+}
